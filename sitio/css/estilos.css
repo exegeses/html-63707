@@ -74,6 +74,40 @@ main{
     }
     #promos article h2{
         font-size: 16px;
-        margin-top: 24px;
-        margin-bottom: 16px;
+        margin: 24px 0px 16px 0px;
+    }
+
+/* destinos */
+#destinos{
+    margin-top: 56px;
+}
+    #destinos article{
+        display: flex;
+        margin-top: 32px;
+    }
+    #destinos article div{
+        width: 340px;
+        margin: 96px 0px 0px 104px;
+    }
+    #destinos article div h2{
+        font-size: 16px;
+    }
+    #destinos article div p{
+        text-align: justify;
+        margin-top: 16px;
+    }
+    #destinos article div a{
+        border: 1px solid #3C3C3C;
+        border-radius: 12px;
+        display: block;
+        width: 140px;
+        margin: 24px auto 0px auto;
+        padding: 6px 0px;
+        text-align: center;
+        color: #3C3C3C;
+        transition: 500ms;
+    }
+    #destinos article div a:hover{
+        background-color: #3C3C3C;
+        color: #fff;
     }
