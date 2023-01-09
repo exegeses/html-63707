@@ -111,3 +111,47 @@ main{
         background-color: #3C3C3C;
         color: #fff;
     }
+
+/* servicios */
+#servicios{
+    width: 732px;
+    margin: auto;
+    margin-top: 56px;
+
+    display: flex;
+    flex-wrap: wrap;  /* respeta los anchos */
+}
+    #servicios h2{
+        text-align: center;
+        width: 100%;
+    }
+    #servicios a{
+        width: 160px;
+        height: 140px;
+        display: block;
+        border: 1px solid #3C3C3C;
+        border-radius: 12px;
+        margin: 40px;
+        text-align: center;
+        color: #3C3C3C;
+        transition: 300ms;
+    }
+    #servicios a:hover{
+        background-color: #DE6C42;
+        color: #fff;
+        border: 1px solid #983a18;
+    }
+
+
+    .material-symbols-outlined{
+        font-size: 56px;
+        margin: 20px;
+    }
+
+/* mapa */    
+#mapa iframe{
+    width: 1100px;
+    height: 580px;
+    border: none;
+    margin-top: 56px;
+}
