@@ -155,3 +155,82 @@ main{
     border: none;
     margin-top: 56px;
 }
+
+/* contacto */
+#contacto{
+    margin-top: 56px;
+    height: 450px;
+    background-color: #EC7D54;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #contacto span{
+        font-size: 24px;
+        color: #fff;
+    }
+
+    #contacto form{
+        width: 550px;
+    }
+    #contacto form input,
+    #contacto form textarea
+    {
+        width: 550px;
+        margin-top: 16px;
+        padding: 8px;
+        background-color: #F8A281;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        border: none;
+    }
+    #contacto form input::placeholder,
+    #contacto form textarea::placeholder
+    {
+        color: #fff;
+    }
+    #contacto form textarea{
+        height: 152px;
+        resize: none;
+    }
+    #contacto form button{
+        width: 212px;
+        margin-top: 20px;
+        padding: 8px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        border-radius: 8px;
+        border: 1px solid #CD5F35;
+        background-color: #fff;
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #contacto form button:hover{
+        background-color: #ffd569;
+    }
+
+
+/* footer */
+footer{
+    width: 1100px;
+    height: 160px;
+    margin: auto;
+    background-color: #3c3c3c;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    footer a{
+        color: #fff;
+    }
+    footer a img{
+        vertical-align: middle;
+        margin: 0px 8px 0px 16px;
+    }
+    footer div a{
+        margin: 16px;
+    }
+
